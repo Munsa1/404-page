@@ -1,13 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Poppins:wght@200&family=Space+Mono&display=swap');
 
 .header {
     margin-top: 20px;
     margin-left: 24px;
     font-family: 'Inconsolata', monospace;
     font-size: 24px;
+    font-weight: 700;
 }
 
 .image {
-    margin: 0 440px;
-    size: 50%;
+    margin: 0 44px;
+    width: 70%;
+    height: 10%;
+    margin-top: 20px;
+}
+
+.heading-1 {
+    margin-left: 24px;
+    color: #333333;
+    font-family: 'Space Mono', monospace;
+    font-size: 38px;
+}
+
+.par-1 {
+    margin-left: 24px;
+    font-size: 18px;
+    font-family: 'Space Mono';
+    color: #4F4F4F;
+}
+
+.btn {
+    margin-left: 24px;
+    color: white;
+    background-color: #333333;
+    padding: 23px 43px;
 }
