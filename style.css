@@ -2,79 +2,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Poppins:wght@200&family=Space+Mono&display=swap');
 
 .header {
-    margin-top: 20px;
-    margin-left: 24px;
-    font-family: 'Inconsolata', monospace;
-    font-size: 24px;
-    font-weight: 700;
+  margin-top: 20px;
+  margin-left: 24px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .image {
-    margin: 0 44px;
-    width: 70%;
-    height: 10%;
-    margin-top: 60px;
+  margin: 0 44px;
+  width: 70%;
+  height: 10%;
+  margin-top: 60px;
 }
 
 .heading-1 {
-    margin-left: 24px;
-    color: #333333;
-    font-family: 'Space Mono', monospace;
-    font-size: 38px;
+  margin-left: 24px;
+  color: #333;
+  font-family: 'Space Mono', monospace;
+  font-size: 38px;
 }
 
 .par-1 {
-    margin-left: 24px;
-    font-size: 18px;
-    font-family: 'Space Mono';
-    color: #4F4F4F;
+  margin-left: 24px;
+  font-size: 18px;
+  font-family: 'Space Mono', sans-serif;
+  color: #4f4f4f;
 }
 
 .btn {
-    margin-left: 24px;
-    color: white;
-    background-color: #333333;
-    padding: 23px 43px;
+  margin-left: 24px;
+  color: white;
+  background-color: #333;
+  padding: 23px 43px;
 }
 
 @media (min-width: 600px) {
-    .main-section {
-      display: flex;
-      margin-left: 72px;
-      margin-right: 119px;
-    }
-
-    .image {
-        margin: 0 44px;
-        width: 40%;
-        height: 10%;
-        margin-top: 60px;
-    }
-
-    .column {
-        flex-direction: column;
-    }
-
-    .heading-1 {
-        margin-left: 24px;
-        letter-spacing: -0.035em;
-        color: #333333;
-        font-family: 'Space Mono', monospace;
-        font-size: 54px;
-    }
-    
-    .par-1 {
-        margin-left: 24px;
-        font-size: 24px;
-        font-family: 'Space Mono';
-        color: #4F4F4F;
-    }
-    
-    .btn {
-        margin-left: 24px;
-        color: white;
-        background-color: #333333;
-        padding: 23px 43px;
-    }
-    
+  .main-section {
+    display: flex;
+    margin-left: 72px;
+    margin-right: 119px;
   }
+
+  .image {
+    margin: 0 44px;
+    width: 40%;
+    height: 10%;
+    margin-top: 60px;
+  }
+
+  .column {
+    flex-direction: column;
+  }
+
+  .heading-1 {
+    margin-left: 24px;
+    letter-spacing: -0.035em;
+    color: #333;
+    font-family: 'Space Mono', monospace, sans-serif;
+    font-size: 54px;
+  }
+
+  .par-1 {
+    margin-left: 24px;
+    font-size: 24px;
+    font-family: 'Space Mono', sans-serif;
+    color: #4f4f4f;
+  }
+
+  .btn {
+    margin-left: 24px;
+    color: white;
+    background-color: #333;
+    padding: 23px 43px;
+  }
+}
